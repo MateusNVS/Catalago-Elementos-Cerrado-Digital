@@ -1,45 +1,40 @@
-<!DOCTYPE html>
-<html>
-      <head>
-             <title>Catálogo de Passarinhos</title>
-              <link rel="stylesheet" href="style.css">
-      </head>
-      <body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catálogo Cerrado Digital </title>
+    <link rel="stylesheet" href="styles.css">
+    <!--<script src="script.js"></script>-->
 
-      <header>
-              <h1>Catálogo de Passarinhos</h1>
-              <p>Conheça algumas espécies incríveis!</p>
-      </header>
+  </head>
+  <body>
+    <header class="header">
+      <button id="menu-btn" class="menu-btn">☰</button>
+      <h1>Cerrado Digital</h1>
+      <p class="tag">Um portal sobre os elementos da fauna, flora, solos e clima do Cerrado</p>
+      <input id="search" type="search" placeholder="Buscar por nome comum ou científico...">
+    </header>
 
-      <main class="catalogo">
-             <div class="passarinho">
-             <img src="./images/saira sete cores.jpg" alt="Saíra-sete-cores">
-             <div class="info">
-               <h3>Saíra-sete-cores</h3>
-               <p>Espécie vibrante e colorida encontrada na Mata Atlântica brasileira.</p>
-         </div>
-      </div>
+    <aside id="sidebar" class="sidebar">
+      <nav>
+        <button data-section="fauna" class="nav-btn active">Fauna</button>
+        <button data-section="flora" class="nav-btn">Flora</button>
+        <button data-section="solos" class="nav-btn">Solos</button>
+        <button data-section="clima" class="nav-btn">Clima</button>
+      </nav>
+    </aside>
 
-      <div class="passarinho">
-            <img src="./images/tucano toco.png" alt="Tucano-toco">
-            <div class="info">
-              <h3>Tucano-toco</h3>
-              <p>Famoso por seu enorme bico laranja. Habita florestas tropicais e cerrado.</p>
-      </div>
-    </div>
+    <main id="main" class="main">
+      <section id="list" class="list"></section>
+      <aside id="detail" class="detail hidden"></aside>
+    </main>
 
-    <div class="passarinho">
-           <img src="./images/joao de barro.jpg" alt="João-de-barro">
-           <div class="info">
-             <h3>João-de-barro</h3>
-             <p>Conhecido por construir ninhos de barro. Um verdadeiro engenheiro da natureza.</p>
-      </div>
-    </div>
-  </main>
+    <footer class="footer">
+      <small></small>
+    </footer>
 
-  <footer>
-    <p>&copy; 2025 Catálogo de Passarinhos. Todos os direitos reservados.</p>
-  </footer>
-
-</body>
+    <script src="script.js"></script>
+  
+  </body>
 </html>

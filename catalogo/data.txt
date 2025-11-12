@@ -1,0 +1,24 @@
+{
+  "fauna": [
+    {"id":"fa1","nome":"Lobo-guará","cientifico":"Chrysocyon brachyurus","categoria":"mamífero","imagem":"","resumo":"Canídeo de pernas longas, típico de áreas abertas do cerrado.","detalhes":"Alimenta-se de pequenos mamíferos e frutos; importante dispersor de sementes."},
+    {"id":"fa2","nome":"Ema","cientifico":"Rhea americana","categoria":"ave","imagem":"","resumo":"Ave corredora de grande porte, comum em campos abertos.","detalhes":"Se alimenta de plantas, insetos e pequenos animais."},
+    {"id":"fa3","nome":"Tamanduá-bandeira","cientifico":"Myrmecophaga tridactyla","imagem":"","resumo":"Mamífero de grande porte especializado em comer formigas e cupins.","detalhes":"Possui língua comprida e pegajosa; essencial no controle de insetos sociais."},
+    {"id":"fa4","nome":"Arara-canindé","cientifico":"Ara ararauna","imagem":"","resumo":"Ave de cores vibrantes, muito associada às matas de galeria do cerrado.","detalhes":"Alimenta-se de frutos e sementes; forma casais duradouros."}
+  ],
+  "flora": [
+    {"id":"fl1","nome":"Pequi","cientifico":"Caryocar brasiliense","imagem":"","resumo":"Árvore símbolo do cerrado e fruto típico da culinária local.","detalhes":"Flores grandes e brancas; fruto oleaginoso; importante na cultura e economia regional."},
+    {"id":"fl2","nome":"Ipê-amarelo","cientifico":"Handroanthus albus","imagem":"","resumo":"Árvore de florada exuberante durante a seca.","detalhes":"Resistente ao fogo e usada em restauração ecológica."},
+    {"id":"fl3","nome":"Buriti","cientifico":"Mauritia flexuosa","imagem":"","resumo":"Palmeira típica de áreas úmidas do cerrado.","detalhes":"Se desenvolve em veredas; seus frutos são ricos em vitamina A."},
+    {"id":"fl4","nome":"Cagaita","cientifico":"Eugenia dysenterica","imagem":"","resumo":"Frutífera nativa, conhecida por seus frutos doces e suculentos.","detalhes":"Muito usada para sucos e doces; importante para fauna frugívora."}
+  ],
+  "solos": [
+    {"id":"so1","nome":"Latossolo","resumo":"Profundo, bem drenado e avermelhado.","detalhes":"Solo ácido e de baixa fertilidade natural, comum no Cerrado."},
+    {"id":"so2","nome":"Neossolo Quartzarênico","resumo":"Solo arenoso e pobre em nutrientes.","detalhes":"Ocorre em áreas com vegetação esparsa e baixa retenção de água."},
+    {"id":"so3","nome":"Cambissolo","resumo":"Solo jovem e pouco desenvolvido.","detalhes":"Possui maior fertilidade natural, mas pode ser raso e pedregoso."}
+  ],
+  "clima": [
+    {"id":"cl1","estacao":"Estação chuvosa","periodo":"Outubro a Março","resumo":"Período com maior volume de chuvas e intensa atividade vegetal.","detalhes":"As chuvas favorecem o crescimento de plantas e aumentam a disponibilidade de água."},
+    {"id":"cl2","estacao":"Estação seca","periodo":"Abril a Setembro","resumo":"Período de estiagem, temperaturas altas e queimadas frequentes.","detalhes":"As plantas se adaptam reduzindo folhas e florescendo na seca."},
+    {"id":"cl3","estacao":"Transição entre seca e chuva","periodo":"Setembro e Outubro","resumo":"Período de mudanças climáticas e ventos fortes.","detalhes":"Marcado por aumento de temperatura e umidade antes das chuvas."}
+  ]
+}
